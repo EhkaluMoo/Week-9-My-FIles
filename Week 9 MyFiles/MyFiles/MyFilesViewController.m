@@ -81,7 +81,7 @@
     {
         //check if iphone or ipad
         if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-             NSURL *targetURL = [NSURL URLWithString:@"http://ckonkol.com/wp-content/uploads/2013/02/How-to-share-your-Apps-over-Air-for-Testers.pdf"];
+             NSURL *targetURL = [NSURL URLWithString:@"http://ckonkol.com/wp-content/uploads/2014/01/RW-Objective-C-Cheatsheet-v-1-5.pdf"];
             NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
             [WebView loadRequest:request];
             
@@ -89,7 +89,7 @@
         
         else {
          
-            NSURL *targetURL = [NSURL URLWithString:@"http://ckonkol.com/wp-content/uploads/2013/02/How-to-share-your-Apps-over-Air-for-Testers.pdf"];
+            NSURL *targetURL = [NSURL URLWithString:@"http://ckonkol.com/wp-content/uploads/2014/01/RW-Objective-C-Cheatsheet-v-1-5.pdf"];
             NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
            [WebView loadRequest:request];
             
